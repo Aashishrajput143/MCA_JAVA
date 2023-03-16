@@ -1,1 +1,227 @@
 # MCA_JAVA
+
+Operators in Java
+- Arithmetic Operators
+    +, -, /, *, %
+- Assignment Operators
+    =, +=, -=, /=, *=, %=
+- Relational Operators
+    ==, >, >=, <, <=, !=
+- Logical Operators
+    &&, ||, !
+- Bitwise Operators
+    | (Bitwise OR), & (Bitwise AND), ^ (Bitwise XOR), ~ (Bitwise Complement),
+     << (Left Shift), >> (Right Shift), >>> (Unsigned Right Shift)
+- Unary Operators
+    +, -, ++, --, !
+- Other Operators
+    instanceof, ternary Operators
+
+
+Bitwise OR
+- returns 1 if at least one of the operand is 1
+
+a       b       a | b
+0       0         0
+0       1         1
+1       0         1
+1       1         1
+
+Bitwise AND
+- returns 1 if both the operands are 1
+
+a       b       a | b
+0       0         0
+0       1         0
+1       0         0
+1       1         1
+
+Bitwise XOR
+- returns 1 if and only if one of the operand is 1
+
+a       b       a | b
+0       0         0
+0       1         1
+1       0         1
+1       1         0
+
+Bitwise Complement
+- returns 1 if both the operands are 1
+
+1s Complement
+changes 0 to 1 and 1 to 0
+
+2s Complement
+- first find 1s Complement then add 1
+
+Left Shift Operator - <<
+- shifts the bits to the left by specified number of bits
+ if x << y => x * (2^y)
+
+Right Shift Operator - >>
+- shifts the bits to the right by specified number of bits
+ if x >> y => x / (2^y)
+
+Unsigned Right Shift >>>
+
+Prime Number
+Count Digit in a Number
+Armstrong Number
+Reverse a number
+GCD/HCF
+LCM = (x * y) / GCD
+
+Pattern Programs
+
+*****
+*****
+*****
+*****
+*****
+
+*
+**
+***
+****
+*****
+
+*****
+****
+***
+**
+*
+
+    *
+   **
+  ***
+ ****
+*****
+
+*****
+ ****
+  ***
+   **
+    *
+
+    *
+   ***
+  *****
+ *******
+*********
+
+*********
+ *******
+  *****
+   ***
+    *
+
+*********
+ *     *
+  *   *
+   * *
+    *
+
+**********
+****  ****
+***    ***
+**      **
+*        *
+*        *
+**      **
+***    ***
+****  ****
+**********
+
+    *****
+   ****
+  ***
+ **
+*
+ **
+  ***
+   ****
+    *****
+
+*****
+  ****
+    ***
+      **
+        *
+      **
+    ***
+  ****
+*****
+
+
+
+  *****     *****
+ *******   *******
+********* *********
+****SkillRisers****
+ *****************
+  ***************
+   *************
+    ***********
+     *********
+      *******
+       *****
+        ***
+         *
+
+
+1        1
+12      21
+123    321
+1234  4321
+1234554321
+
+
+5 5 5 5 5 5 5 5 5
+5 4 4 4 4 4 4 4 5
+5 4 3 3 3 3 3 4 5
+5 4 3 2 2 2 3 4 5
+5 4 3 2 1 2 3 4 5
+5 4 3 2 2 2 3 4 5
+5 4 3 3 3 3 3 4 5
+5 4 4 4 4 4 4 4 5
+5 5 5 5 5 5 5 5 5
+
+Labeled For Loop
+
+Switch Case
+=======================================
+
+OOPS
+
+Class and Object
+
+Class
+- Blueprint / Template / Structure
+
+Object
+- instance of a class
+- has some unique characterstics and features
+
+Convert Student Example into grading system
+- take marks in input from user
+- compute average marks and percentage
+- assign grades according to percentage of student
+- Must use SRP and DRY
+
+Employee Salary Slip
+
+Inheritance
+- when we have to reuse properties of a class
+- when we want to upgrade previous features
+
+
+Relationship
+- Is-A
+- Has-A
+
+Final Keyword
+
+- 3 ways to use final Keyword
+  class, method or variable
+
+Super vs This
